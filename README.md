@@ -27,7 +27,7 @@ import {
   NetInfoProvider,
   AppStateProvider,
   AccessibilityInfoProvider
-} from "react-native-device-helpers";
+} from "react-native-device-context";
 
 const App = () => (
   <NetInfoProvider>
@@ -47,7 +47,7 @@ import {
   NetInfoContext,
   AppStateContext,
   AccessibilityInfoContext
-} from "react-native-device-helpers";
+} from "react-native-device-context";
 
 // NetInfo exposes info about online/offline status
 const NetInfo = () => (
